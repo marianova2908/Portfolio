@@ -1,4 +1,10 @@
-/* General styles for the Projects page */
+/*
+ * File Name: project.css
+ * Student's Name: Maria Paula Nova
+ * StudentID: 301374220
+ * Date: October 2, 2024
+ */
+
 .projects-page {
     max-width: 1200px;
     margin: 0 auto;
@@ -13,7 +19,7 @@
   }
   
   h1 {
-    grid-column: 1 / -1; /* Make the h1 take full width of the grid */
+    grid-column: 1 / -1; 
     text-align: center;
     color: #2c3e50;
     font-size: 2.5rem;
@@ -25,7 +31,7 @@
   }
   
   h1:hover {
-    color: #34495e; /* Slight color change on hover */
+    color: #34495e; 
   }
   
   .project {
@@ -41,7 +47,7 @@
   }
   
   .project:hover {
-    transform: translateY(-5px); /* Lift on hover */
+    transform: translateY(-5px); 
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   }
   
@@ -56,7 +62,7 @@
   }
   
   .project-img:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+    transform: scale(1.05); 
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   }
   
@@ -69,7 +75,7 @@
   }
   
   .project:hover h2 {
-    color: #2c3e50; /* Darker heading on hover */
+    color: #2c3e50; 
   }
   
   p {
@@ -81,17 +87,17 @@
   }
   
   .project:hover p {
-    color: #2c3e50; /* Darker text color on hover */
+    color: #2c3e50; 
   }
   
   strong {
     color: #2c3e50;
   }
   
-  /* Responsive styles for smaller screens */
+ 
   @media (max-width: 768px) {
     .projects-page {
-      grid-template-columns: 1fr; /* Make single column on smaller screens */
+      grid-template-columns: 1fr; 
     }
   
     .project-img {
