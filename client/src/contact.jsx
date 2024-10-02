@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Contact.css'; // Import the external CSS file
+import './contact.css'; // Import the external CSS file
 
 export default function Contact() {
   const [formData, setFormData] = useState({
