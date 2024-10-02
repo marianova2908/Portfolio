@@ -12,7 +12,7 @@ export default function Layout() {
     hexagonLogo: {
       width: '100px',
       height: '55px',
-      backgroundColor: '#eacdc2', // Hexagon color
+      backgroundColor: '#eacdc2', 
       position: 'relative',
       display: 'inline-block',
     },
@@ -50,11 +50,11 @@ export default function Layout() {
     <>
       <h1>My Portfolio</h1>
       <nav style={{ display: 'flex', alignItems: 'center' }}>
-        {/* Clickable Hexagon Logo that redirects to the Home Page */}
+       
         <Link to="/" style={styles.logoContainer}>
           <div style={styles.hexagonLogo}>
             <span style={styles.initials}>MN</span>
-            {/* Hexagon shape with additional divs for top and bottom triangles */}
+            
             <div style={styles.hexagonBefore}></div>
             <div style={styles.hexagonAfter}></div>
           </div>
