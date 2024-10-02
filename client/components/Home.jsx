@@ -34,7 +34,7 @@ export default function Home() {
       display: 'inline-block',
       padding: '0.75rem 1.5rem',
       margin: '0 0.5rem',
-      backgroundColor: '#bda79e',  // Soft pastel blue
+      backgroundColor: '#bda79e',  
       color: 'white',
       textDecoration: 'none',
       borderRadius: '8px',
@@ -43,11 +43,11 @@ export default function Home() {
       transition: 'background-color 0.3s ease',
     },
     buttonHover: {
-      backgroundColor: '#eacdc2',  // Slightly darker soft blue for hover
+      backgroundColor: '#eacdc2',  
     },
   };
 
-  // JSX rendering the component
+  
   return (
     <div style={styles.home}>
       <h1 style={styles.heading}>Welcome to My Portfolio</h1>
