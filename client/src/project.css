@@ -1,0 +1,100 @@
+/* General styles for the Projects page */
+.projects-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f6;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  h1 {
+    grid-column: 1 / -1; /* Make the h1 take full width of the grid */
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+  }
+  
+  h1:hover {
+    color: #34495e; /* Slight color change on hover */
+  }
+  
+  .project {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .project:hover h2 {
+    color: #2c3e50; /* Darker heading on hover */
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+    max-width: 100%;
+    transition: color 0.3s ease;
+  }
+  
+  .project:hover p {
+    color: #2c3e50; /* Darker text color on hover */
+  }
+  
+  strong {
+    color: #2c3e50;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .projects-page {
+      grid-template-columns: 1fr; /* Make single column on smaller screens */
+    }
+  
+    .project-img {
+      height: auto;
+    }
+  }
