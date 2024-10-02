@@ -1,29 +1,35 @@
-/* Centering content and improving max-width for large screens */
+/*
+ * File Name: index.css
+ * Student's Name: Maria Paula Nova
+ * StudentID: 301374220
+ * Date: October 2, 2024
+ */
+
 #root {
-  max-width: 1200px; /* Reduced a bit for better balance */
+  max-width: 1200px; 
   margin: 0 auto;
-  padding: 2rem 1rem; /* Adjusted padding for small screens */
+  padding: 2rem 1rem; 
   text-align: center;
-  box-sizing: border-box; /* Ensure consistent padding and borders */
+  box-sizing: border-box; 
 }
 
-/* Logo styling with refined padding and hover effects */
+
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
-  transition: filter 300ms, transform 300ms; /* Added smooth transform transition */
+  transition: filter 300ms, transform 300ms; 
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
-  transform: scale(1.1); /* Added scale effect on hover for interactivity */
+  transform: scale(1.1); 
 }
 
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-/* Animation for rotating the logo */
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -33,45 +39,45 @@
   }
 }
 
-/* Apply animation only for users with reduced motion preference off */
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
 
-/* Card styling with more defined spacing and shadow for better structure */
+
 .card {
   padding: 2em;
-  margin: 1.5rem 0; /* Added margin for spacing between cards */
+  margin: 1.5rem 0; 
   background-color: #f9f9f9;
-  border-radius: 12px; /* Rounded corners for a modern look */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  transition: transform 300ms, box-shadow 300ms; /* Smooth hover transition */
+  border-radius: 12px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 300ms, box-shadow 300ms; 
 }
 
 .card:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
 }
 
 /* Read the docs section styling */
 .read-the-docs {
   color: #888;
-  font-size: 0.9rem; /* Reduced font size for secondary text */
-  margin-top: 1.5rem; /* Added margin for breathing room */
+  font-size: 0.9rem; 
+  margin-top: 1.5rem; 
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
   .card {
-    padding: 1.5em; /* Adjusted padding for smaller screens */
+    padding: 1.5em; 
   }
   .logo {
-    height: 4em; /* Reduced logo size on smaller devices */
+    height: 4em; 
     padding: 1em;
   }
   #root {
-    padding: 1.5rem; /* Adjusted root padding for small screens */
+    padding: 1.5rem; /
   }
 }
