@@ -1,3 +1,9 @@
+/*
+ * File Name: app.jsx
+ * Student's Name: Maria Paula Nova
+ * StudentID: 301374220
+ * Date: October 2, 2024
+ */
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 //import { ThemeProvider } from '@material-ui/styles';

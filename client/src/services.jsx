@@ -1,3 +1,9 @@
+/*
+ * File Name: services.jsx
+ * Student's Name: Maria Paula Nova
+ * StudentID: 301374220
+ * Date: October 2, 2024
+ */
 import programmingImage from './assets/programming.jpg';
 import web from './assets/web.jpg';
 import app from './assets/app.jpg';

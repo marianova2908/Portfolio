@@ -1,6 +1,13 @@
+/*
+ * File Name: contact.jsx
+ * Student's Name: Maria Paula Nova
+ * StudentID: 301374220
+ * Date: October 2, 2024
+ */
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './contact.css'; // Import the external CSS file
+import './contact.css'; 
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -23,8 +30,8 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form Data:', formData); // Captures the data entered by the user
-    // Redirects to the home page
+    console.log('Form Data:', formData); 
+    
     navigate('/');
   };
 

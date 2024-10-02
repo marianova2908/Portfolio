@@ -1,3 +1,9 @@
+/*
+ * File Name: layout.jsx
+ * Student's Name: Maria Paula Nova
+ * StudentID: 301374220
+ * Date: October 2, 2024
+ */
 import React from 'react';
 import { Link } from 'react-router-dom';
 

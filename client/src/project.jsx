@@ -1,3 +1,9 @@
+/*
+ * File Name: project.jsx
+ * Student's Name: Maria Paula Nova
+ * StudentID: 301374220
+ * Date: October 2, 2024
+ */
 import weather from './assets/weather.jpg';
 import ecommerce from './assets/web.jpg';
 import fitness from './assets/app.jpg';
